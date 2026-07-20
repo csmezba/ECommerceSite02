@@ -1,0 +1,6 @@
+{
+  "name": "Aura Luxury Cosmetics",
+  "description": "A world-class premium cosmetics e-commerce platform featuring luxury skincare, makeup, and fragrances with a built-in AI beauty consultant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
