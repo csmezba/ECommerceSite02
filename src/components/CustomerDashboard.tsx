@@ -176,7 +176,7 @@ export default function CustomerDashboard({
   };
 
   return (
-    <div className="py-28 max-w-7xl mx-auto px-6 select-none font-sans">
+    <div className="py-28 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 select-none font-sans">
       
       {/* Dashboard visual ribbon */}
       <div className="p-8 bg-[#1A1A1A] rounded-3xl border border-[#C5A059]/30 flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">

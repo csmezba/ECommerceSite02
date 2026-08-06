@@ -217,7 +217,7 @@ export default function ShadeFinder({ products, onAddToCart, onSetView }: ShadeF
   };
 
   return (
-    <section id="aura-shade-finder" className="py-28 max-w-7xl mx-auto px-6 font-sans select-none">
+    <section id="aura-shade-finder" className="py-28 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 font-sans select-none">
       
       {/* Header and Title */}
       <div className="text-center space-y-3 mb-16">

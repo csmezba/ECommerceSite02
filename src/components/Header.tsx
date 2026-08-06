@@ -139,7 +139,7 @@ export default function Header({
           ? "glass-premium shadow-md py-4 text-[#1A1A1A] border-b border-[#E5E1D8]" 
           : "bg-transparent text-[#1A1A1A] py-6"
       }`}>
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 flex items-center justify-between">
           
           {/* Logo */}
           <div 

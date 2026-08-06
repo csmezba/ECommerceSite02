@@ -129,7 +129,7 @@ export default function ProductDetails({
   const currentPrice = isSale ? product.flashSalePrice! : product.price;
 
   return (
-    <div className="py-28 max-w-7xl mx-auto px-6 space-y-16 select-none font-sans">
+    <div className="py-28 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 space-y-16 select-none font-sans">
       
       {/* Breadcrumb */}
       <div className="text-[10px] tracking-widest text-gray-400 uppercase flex items-center space-x-2">

@@ -109,7 +109,7 @@ export default function IngredientLibrary({ onSetCategory, onSetView }: Ingredie
 
   return (
     <section className="py-24 bg-white border-y border-[#E5E1D8] select-none overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6">
         
         {/* Header Block */}
         <div className="text-center space-y-3 mb-16">

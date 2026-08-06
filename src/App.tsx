@@ -307,7 +307,7 @@ export default function App() {
             />
 
             {/* Shop by Category Icons panel */}
-            <section className="py-20 max-w-7xl mx-auto px-6 text-center select-none space-y-12">
+            <section className="py-20 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 text-center select-none space-y-12">
               <div className="space-y-2">
                 <span className="text-[10px] tracking-[0.25em] text-[#C5A059] uppercase font-bold">Maison Portals</span>
                 <h3 className="font-serif text-3xl font-extralight text-[#1A1A1A]">Shop by Creation Category</h3>
@@ -339,7 +339,7 @@ export default function App() {
 
             {/* Featured creations grid */}
             <section className="py-20 bg-white border-y border-[#E5E1D8]">
-              <div className="max-w-7xl mx-auto px-6 space-y-12">
+              <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 space-y-12">
                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
                   <div className="space-y-2">
                     <span className="text-[10px] tracking-[0.25em] text-[#C5A059] uppercase font-bold">The Signature Rituals</span>
@@ -377,7 +377,7 @@ export default function App() {
             />
 
             {/* Luxury Editorial Story section */}
-            <section className="py-24 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center select-none">
+            <section className="py-24 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center select-none">
               <div className="lg:col-span-5 space-y-6">
                 <span className="text-[10px] tracking-[0.3em] uppercase font-bold text-[#C5A059]">Stem Cell Biology Heritage</span>
                 <h3 className="font-serif text-3xl md:text-4xl text-[#1A1A1A] font-extralight leading-tight">
@@ -403,7 +403,7 @@ export default function App() {
 
             {/* Instagram Live Showcase Grid */}
             <section className="py-20 bg-[#FAF9F6] border-t border-[#E5E1D8]">
-              <div className="max-w-7xl mx-auto px-6 text-center space-y-12 select-none">
+              <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 text-center space-y-12 select-none">
                 <div className="space-y-2">
                   <Instagram className="w-6 h-6 text-[#C5A059] mx-auto" />
                   <span className="text-[10px] tracking-[0.25em] text-[#C5A059] uppercase font-bold">Maison Chronicles</span>
@@ -434,7 +434,7 @@ export default function App() {
 
         {/* VIEW 2: PRODUCT CATALOG (SHOP) */}
         {view === "shop" && (
-          <section className="py-32 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          <section className="py-32 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             {/* Left Column - Sidebar Filters */}
             <div className="lg:col-span-3">
               <ProductFilters 
@@ -587,7 +587,7 @@ export default function App() {
 
       {/* High-Contrast Luxury Footer */}
       <footer className="bg-[#1A1A1A] text-white py-16 border-t border-white/5 select-none font-sans">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
           
           {/* Logo & Manifesto */}
           <div className="space-y-4">
@@ -634,7 +634,7 @@ export default function App() {
 
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 border-t border-white/5 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between text-[10px] text-gray-500 font-sans">
+        <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 border-t border-white/5 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between text-[10px] text-gray-500 font-sans">
           <span>© {new Date().getFullYear()} Aura Luxury de Beauté. All Rights Reserved. Crafted with French Botanical Cell Extracts.</span>
           <div className="flex space-x-4 pt-3 sm:pt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy Charter</a>

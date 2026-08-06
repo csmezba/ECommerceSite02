@@ -49,7 +49,7 @@ export default function BeforeAfterShowcase() {
 
   return (
     <section className="py-24 bg-[#FAF9F6] border-y border-[#E5E1D8] overflow-hidden select-none">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* Left Column - Editorial Text */}
         <div className="lg:col-span-5 space-y-6">

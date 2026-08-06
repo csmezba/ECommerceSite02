@@ -193,7 +193,7 @@ export default function AdminPanel({
   ];
 
   return (
-    <div className="py-28 max-w-7xl mx-auto px-6 select-none font-sans space-y-10">
+    <div className="py-28 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 select-none font-sans space-y-10">
       
       {/* Title */}
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-b border-gray-100 pb-5">

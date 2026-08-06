@@ -88,7 +88,7 @@ export default function DiagnosticQuickTrigger({ onStartCustomQuiz, onSetView }:
 
   return (
     <section className="py-24 bg-[#FAF9F6] border-b border-[#E5E1D8] select-none">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6">
         
         {/* Content Side / Grid Header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">

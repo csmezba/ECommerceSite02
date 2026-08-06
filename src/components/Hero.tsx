@@ -15,7 +15,7 @@ interface HeroProps {
 const HERO_SLIDES = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1600",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=1800",
     subtitle: "REGENERATIVE CLINICAL BIOLOGY",
     title: "La Rose Céleste",
     accent: "Elixir Ritual",
@@ -25,7 +25,7 @@ const HERO_SLIDES = [
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=1600",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1800",
     subtitle: "24K GOLD CELLULAR RESISTANCE",
     title: "Absolute Gold",
     accent: "Or Blanc Cream",
@@ -35,12 +35,22 @@ const HERO_SLIDES = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=1600",
+    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=1800",
     subtitle: "COUTURE SCENT OF THE SOVEREIGN WOMAN",
     title: "L'Ambre Impérial",
     accent: "Eau De Parfum",
     description: "An intoxicating, mysterious sensory narrative weaving Madagascan vanilla, velvet jasmine, and warm botanical amber.",
     ctaText: "Sample the Scent",
+    action: "shop"
+  },
+  {
+    id: 4,
+    image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=1800",
+    subtitle: "HIGH-PIGMENT BOTANICAL COUTURE",
+    title: "Le Rouge Vibrant",
+    accent: "Couture Velvet Lip",
+    description: "Enriched with wild pomegranate flower nectar and organic camellia oil for vivid, ultra-nourishing satin color.",
+    ctaText: "Discover Couture Colors",
     action: "shop"
   }
 ];
@@ -65,7 +75,7 @@ export default function Hero({ onSetView, onOpenChat }: HeroProps) {
         <motion.div
           key={slide.id}
           initial={{ scale: 1.08, opacity: 0 }}
-          animate={{ scale: 1, opacity: 0.55 }}
+          animate={{ scale: 1, opacity: 0.72 }}
           exit={{ scale: 0.96, opacity: 0 }}
           transition={{ duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
           className="absolute inset-0 bg-cover bg-center"
@@ -78,7 +88,7 @@ export default function Hero({ onSetView, onOpenChat }: HeroProps) {
       <div className="absolute inset-0 bg-radial-vignette bg-gradient-to-t from-[#0D0D0D] via-[#1A1A1A]/25 to-transparent" />
 
       {/* Hero Content Container */}
-      <div className="relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-center z-10">
+      <div className="relative h-full max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 flex flex-col justify-center z-10">
         
         <div className="max-w-2xl space-y-6 pt-16">
           
@@ -182,7 +192,7 @@ export default function Hero({ onSetView, onOpenChat }: HeroProps) {
 
       {/* Floating features ticker at the absolute bottom of the Hero section */}
       <div className="absolute bottom-0 left-0 w-full bg-[#1A1A1A]/80 backdrop-blur-md py-4 border-t border-white/5 z-20 hidden lg:block">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-3 gap-8">
+        <div className="max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 grid grid-cols-3 gap-8">
           <div className="flex items-center space-x-3 text-white/80">
             <ShieldCheck className="w-4 h-4 text-[#C5A059] stroke-[1.5]" />
             <span className="text-[10px] font-sans tracking-widest uppercase font-light">100% Certified Allergen-Free</span>

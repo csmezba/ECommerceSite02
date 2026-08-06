@@ -118,7 +118,7 @@ export default function Checkout({
   };
 
   return (
-    <div className="py-28 max-w-7xl mx-auto px-6 select-none font-sans">
+    <div className="py-28 max-w-[1536px] mx-auto px-3 sm:px-4 md:px-6 select-none font-sans">
       
       {/* Checkout Header Progress Tracker */}
       {step !== "success" && (
